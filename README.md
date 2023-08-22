@@ -20,7 +20,7 @@ Output the image using cv2.imshow("OUTPUT", image).
 Developed By:G.ChethanKumar
 Register Number:212222240022
 ```
-# i) Convert BGR and RGB to HSV and GRAY
+### i) Convert BGR and RGB to HSV and GRAY
 ```python
 import cv2
 houseImage = cv2.imread('original.jpg')
@@ -36,7 +36,7 @@ cv2.imshow('RGB2GRAY',grayImage1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-# ii)Convert HSV to RGB and BGR
+### ii)Convert HSV to RGB and BGR
 ```python
 import cv2
 houseHSVImage = cv2.imread('original.jpeg')
@@ -48,7 +48,7 @@ cv2.imshow('RGB2HSV',BGRImage)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-# iii)Convert RGB and BGR to YCrCb
+### iii)Convert RGB and BGR to YCrCb
 ```python
 import cv2
 houseImage = cv2.imread('original.jpg')
@@ -60,7 +60,7 @@ cv2.imshow('RGB2HSV',YCrCb_image1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-# iv)Split and Merge RGB Image
+### iv)Split and Merge RGB Image
 ```python
 import cv2
 image = cv2.imread('original.jpg')
@@ -75,7 +75,7 @@ cv2.imshow('212222240022_Gchethankumar',mergeBgr)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-# v) Split and merge HSV Image
+### v) Split and merge HSV Image
 ```python
 import cv2
 image = cv2.imread('original.jpg')
